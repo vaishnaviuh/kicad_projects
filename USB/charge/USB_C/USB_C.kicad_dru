@@ -1,0 +1,11 @@
+(version 1)
+
+(rule "J2_pad_spacing"
+    (condition "A.Reference == 'J2' && B.Reference == 'J2'")
+    (constraint clearance (min 0.15mm))
+)
+
+# Fab manufacturing floor (6 mil)
+(rule fab_min_clearance
+  (constraint clearance (min 0.15mm))
+)

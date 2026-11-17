@@ -1,0 +1,14 @@
+# KiCad local/user files
+*.kicad_prl
+*-backups/
+*.lck
+~*.lck
+fp-info-cache
+*.bak
+
+# Generated fab outputs (create with USB/charge/tools/fab-export.py)
+fab_output/
+
+# OS
+.DS_Store
+Thumbs.db

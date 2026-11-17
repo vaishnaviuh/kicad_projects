@@ -1,0 +1,8 @@
+(version 1)
+
+# Fab manufacturing floor (6 mil)
+# (matches the manufactured Central-Hub-Surya board): 0.15mm copper
+# clearance everywhere.
+(rule fab_min_clearance
+  (constraint clearance (min 0.15mm))
+)
